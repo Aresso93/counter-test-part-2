@@ -42,8 +42,13 @@
 }
 
 .wrapper-div{
-  border: 4px solid crimson;
+  border: 4px solid rgb(178, 44, 26);
   padding: 8px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  background-color: wheat;
+  color: black;
+  gap: 8px;
 }
+

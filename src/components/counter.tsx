@@ -8,6 +8,7 @@ export function Counter(){
 
     return (
         <>  
+        Counterone
         <WrapperDisplayCounter 
         value={controls.state.counter} 
         >

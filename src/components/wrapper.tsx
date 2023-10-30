@@ -1,12 +1,17 @@
-export interface WrapperProps{}
+import { ReactNode } from "react"
 
-export function Wrapper({title, children}){
+export interface WrapperProps{
+    title: string,
+    children: ReactNode
+}
+
+export function Wrapper(props:WrapperProps){
     
     return (
         
         <div className="wrapper-div">
-            {title}
-            {children}
+            {props.title}
+            {props.children}
         </div>
         
     )

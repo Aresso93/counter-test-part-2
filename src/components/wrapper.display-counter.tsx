@@ -2,7 +2,7 @@ import { DisplayCounter } from "./display-counter";
 import { Wrapper } from "./wrapper";
 
 export interface DisplayCounterProps{
-    value: number,
+    value: number
 }
 
 export function WrapperDisplayCounter(props:DisplayCounterProps){
