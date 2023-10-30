@@ -1,7 +1,6 @@
-import { ControlCounter } from "./control-counter";
-import { DisplayCounter } from "./display-counter";
 import { useControls } from "./hooks/useControls";
-import { Wrapper } from "./wrapper";
+import { WrapperControlCounter } from "./wrapper.control-counter";
+import { WrapperDisplayCounter } from "./wrapper.display-counter";
 
 export function Counter(){
 
@@ -9,19 +8,16 @@ export function Counter(){
 
     return (
         <>  
-        <Wrapper>
-        <DisplayCounter
-        value={controls.state.counter}
-        />
-        </Wrapper>
+        <WrapperDisplayCounter 
+        value={controls.state.counter} 
+        >
+       
+        </WrapperDisplayCounter>
 
-        <Wrapper>
+        <WrapperControlCounter 
+        actions={controls.actions}>
 
-        <ControlCounter
-        actions={controls.actions}
-        />
-        </Wrapper>
-
+        </WrapperControlCounter>
         </>
     )
 

@@ -1,14 +1,14 @@
-export function Wrapper({children}){
+export interface WrapperProps{}
 
+export function Wrapper({title, children}){
+    
     return (
-        <>
-        <div>
-            sto wrappando
-        </div>
+        
         <div className="wrapper-div">
+            {title}
             {children}
         </div>
-        </>
+        
     )
 
 }

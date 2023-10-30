@@ -1,5 +1,3 @@
-import { useControls } from "./hooks/useControls"
-
 export interface ControlProps{
     actions: {
         reset: () => void;

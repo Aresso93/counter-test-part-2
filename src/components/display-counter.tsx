@@ -1,5 +1,6 @@
 export interface DisplayCounterProps{
     value: number
+    children
 }
 export function DisplayCounter(props: DisplayCounterProps){
 
