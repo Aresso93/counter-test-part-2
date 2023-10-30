@@ -11,14 +11,12 @@ export function Counter(){
         Counterone
         <WrapperDisplayCounter 
         value={controls.state.counter} 
-        >
-       
-        </WrapperDisplayCounter>
+        />
 
         <WrapperControlCounter 
-        actions={controls.actions}>
+        actions={controls.actions}
+        />
 
-        </WrapperControlCounter>
         </>
     )
 
