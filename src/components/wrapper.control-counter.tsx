@@ -19,9 +19,7 @@ export function WrapperControlCounter(props:ControlProps){
     title={'Controlli'}>
     <ControlCounter
     actions={props.actions}
-    >
-        
-    </ControlCounter>
+    />   
     </Wrapper>
     </>
     )
