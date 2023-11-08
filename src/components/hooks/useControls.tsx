@@ -1,9 +1,5 @@
 import { useState } from "react"
 
-export interface CounterControlProps{
-    
-}
-
 export function useControls(){
 
     const [counter, setCounter] = useState(0) 

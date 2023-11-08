@@ -1,6 +1,8 @@
+import { ReactNode } from "react"
+
 export interface DisplayCounterProps{
     value: number
-    children
+    children: ReactNode
 }
 export function DisplayCounter(props: DisplayCounterProps){
 
